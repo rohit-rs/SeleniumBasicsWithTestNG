@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="2" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[[Chrome browser launced sucessfully.]]]>
+    </line>
+    <line>
+      <![CDATA[[Opened URl: http://demowebshop.tricentis.com/.]]]>
+    </line>
+    <line>
+      <![CDATA[[Clcked on element with locator: a[href='/login'] .]]]>
+    </line>
+    <line>
+      <![CDATA[[Page URL contains: login .]]]>
+    </line>
+    <line>
+      <![CDATA[Data: rohitmckvie@gmail.com is entered in field with locator [id='Email'] .]]]>
+    </line>
+    <line>
+      <![CDATA[Data: ##98011Rohit is entered in field with locator [id='Password'] .]]]>
+    </line>
+    <line>
+      <![CDATA[[Clcked on element with locator: [id='RememberMe'] .]]]>
+    </line>
+    <line>
+      <![CDATA[[Clcked on element with locator: [value='Log in'] .]]]>
+    </line>
+    <line>
+      <![CDATA[[Clcked on element with locator: [href='/logout'] .]]]>
+    </line>
+    <line>
+      <![CDATA[[Browser closed.]]]>
+    </line>
+  </reporter-output>
+  <suite name="Smoke Test" duration-ms="30990" started-at="2020-04-05T18:20:32Z" finished-at="2020-04-05T18:21:03Z">
+    <groups>
+      <group name="login">
+        <method signature="SmokeTest.smoke_tc_01()[pri:0, instance:com.tricentis.demoshop.tests.SmokeTest@59fa1d9b]" name="smoke_tc_01" class="com.tricentis.demoshop.tests.SmokeTest"/>
+      </group> <!-- login -->
+    </groups>
+    <test name="Smoke Test Execution" duration-ms="30990" started-at="2020-04-05T18:20:32Z" finished-at="2020-04-05T18:21:03Z">
+      <class name="com.tricentis.demoshop.tests.SmokeTest">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.tricentis.demoshop.tests.SmokeTest@59fa1d9b]" name="beforeTest" is-config="true" duration-ms="21714" started-at="2020-04-05T18:20:32Z" finished-at="2020-04-05T18:20:53Z">
+          <reporter-output>
+            <line>
+              <![CDATA[[Chrome browser launced sucessfully.]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.tricentis.demoshop.tests.SmokeTest@59fa1d9b]" name="beforeClass" is-config="true" duration-ms="16" started-at="2020-04-05T18:20:53Z" finished-at="2020-04-05T18:20:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="smoke_tc_01()[pri:0, instance:com.tricentis.demoshop.tests.SmokeTest@59fa1d9b]" name="smoke_tc_01" duration-ms="8042" started-at="2020-04-05T18:20:54Z" finished-at="2020-04-05T18:21:02Z">
+          <reporter-output>
+            <line>
+              <![CDATA[[Opened URl: http://demowebshop.tricentis.com/.]]]>
+            </line>
+            <line>
+              <![CDATA[[Clcked on element with locator: a[href='/login'] .]]]>
+            </line>
+            <line>
+              <![CDATA[[Page URL contains: login .]]]>
+            </line>
+            <line>
+              <![CDATA[Data: rohitmckvie@gmail.com is entered in field with locator [id='Email'] .]]]>
+            </line>
+            <line>
+              <![CDATA[Data: ##98011Rohit is entered in field with locator [id='Password'] .]]]>
+            </line>
+            <line>
+              <![CDATA[[Clcked on element with locator: [id='RememberMe'] .]]]>
+            </line>
+            <line>
+              <![CDATA[[Clcked on element with locator: [value='Log in'] .]]]>
+            </line>
+            <line>
+              <![CDATA[[Clcked on element with locator: [href='/logout'] .]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- smoke_tc_01 -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.tricentis.demoshop.tests.SmokeTest@59fa1d9b]" name="afterTest" is-config="true" duration-ms="858" started-at="2020-04-05T18:21:02Z" finished-at="2020-04-05T18:21:03Z">
+          <reporter-output>
+            <line>
+              <![CDATA[[Browser closed.]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.tricentis.demoshop.tests.SmokeTest -->
+    </test> <!-- Smoke Test Execution -->
+  </suite> <!-- Smoke Test -->
+</testng-results>

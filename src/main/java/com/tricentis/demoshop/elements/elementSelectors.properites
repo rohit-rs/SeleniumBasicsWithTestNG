@@ -1,0 +1,6 @@
+Log\ in = a[href='/login']
+Email = [id='Email']
+Password = [id='Password']
+Remember\ me = [id='RememberMe']
+Log\ in\ button = [value='Log in']
+Log\ out = [href='/logout']

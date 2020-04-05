@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Regression Test">
+	<test name="Regression Test Execution">
+		<classes>
+			<class name ="com.tricentis.demoshop.tests.Books_Regression"></class>
+			<class name ="com.tricentis.demoshop.tests.Computers_Regression"></class>
+		</classes>
+	</test>
+</suite>

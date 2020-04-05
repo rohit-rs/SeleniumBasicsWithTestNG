@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Smoke Test">
+	<test name="Smoke Test Execution">
+		<groups>
+			<define name="all">
+				<include name="login"></include>
+				<include name="books"></include>
+				<include name="computers"></include>
+			</define>
+			<define name="login">
+				<include name="login"></include>
+			</define>
+			<run>
+				<include name="login"></include>
+			</run>
+		</groups>
+		<classes>
+			<class name="com.tricentis.demoshop.tests.SmokeTest"></class>
+		</classes>
+	</test>
+</suite>
