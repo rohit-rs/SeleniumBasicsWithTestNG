@@ -18,7 +18,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Reporter;
 
 
-public class baseMethods {
+public class BaseMethods {
 	
 	public static WebDriver driver;
 	public static WebDriverWait  wait;

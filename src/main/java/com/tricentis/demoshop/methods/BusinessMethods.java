@@ -5,7 +5,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.testng.Assert;
 import org.testng.Reporter;
 
-public class businessMethods extends baseMethods {
+public class BusinessMethods extends BaseMethods {
 
 	public static void clickOnElement(String locator) {
 		wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector(locator)));

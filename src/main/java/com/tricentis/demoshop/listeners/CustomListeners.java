@@ -6,7 +6,7 @@ import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
 
-import com.tricentis.demoshop.methods.baseMethods;
+import com.tricentis.demoshop.methods.BaseMethods;
 
 public class CustomListeners implements ITestListener{
 
@@ -28,7 +28,7 @@ public class CustomListeners implements ITestListener{
 	public void onTestFailure(ITestResult result) {
 		// TODO Auto-generated method stub
 		try {
-			baseMethods.captureScreenshot();
+			BaseMethods.captureScreenshot();
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
