@@ -1,4 +1,4 @@
-A sample Test Automation framework using Maven and TestNG.
+# A sample Test Automation framework using Maven and TestNG.
 
 Application: http://demowebshop.tricentis.com/
 
