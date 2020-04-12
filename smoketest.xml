@@ -11,7 +11,7 @@
 				<include name="login"></include>
 			</define>
 			<run>
-				<include name="login"></include>
+				<include name="all"></include>
 			</run>
 		</groups>
 		<classes>

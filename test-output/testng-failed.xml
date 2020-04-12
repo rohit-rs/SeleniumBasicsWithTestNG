@@ -1,21 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Smoke Test]">
-  <test thread-count="5" name="Smoke Test Execution(failed)">
-    <groups>
-      <run>
-        <include name="login"/>
-      </run>
-    </groups>
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.tricentis.demoshop.tests.SmokeTest">
+      <class name="com.tricentis.demoshop.tests.DummySmoke">
         <methods>
-          <include name="beforeClass"/>
-          <include name="beforeTest"/>
-          <include name="smoke_tc_01"/>
           <include name="afterTest"/>
+          <include name="beforeTest"/>
+          <include name="f"/>
+          <include name="beforeClass"/>
         </methods>
-      </class> <!-- com.tricentis.demoshop.tests.SmokeTest -->
+      </class> <!-- com.tricentis.demoshop.tests.DummySmoke -->
     </classes>
-  </test> <!-- Smoke Test Execution(failed) -->
-</suite> <!-- Failed suite [Smoke Test] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

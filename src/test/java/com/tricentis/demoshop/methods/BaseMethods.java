@@ -29,11 +29,11 @@ public class BaseMethods {
 	
 	public static void initialize() throws IOException {
 		elementSelectors = new Properties();
-		FileInputStream selectors = new FileInputStream(System.getProperty("user.dir")+"/src/main/java/com/tricentis/demoshop/elements/elementSelectors.properites");
+		FileInputStream selectors = new FileInputStream(System.getProperty("user.dir")+"/src/test/java/com/tricentis/demoshop/elements/elementSelectors.properites");
 		elementSelectors.load(selectors);
 		
 		testData = new Properties();
-		FileInputStream data = new FileInputStream(System.getProperty("user.dir")+"/src/main/java/com/tricentis/demoshop/elements/testData.properites");
+		FileInputStream data = new FileInputStream(System.getProperty("user.dir")+"/src/test/java/com/tricentis/demoshop/elements/testData.properites");
 		testData.load(data);
 	}
 	

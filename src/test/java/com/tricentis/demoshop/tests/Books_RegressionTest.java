@@ -8,10 +8,10 @@ import org.testng.annotations.BeforeTest;
 import com.tricentis.demoshop.methods.BaseMethods;
 import com.tricentis.demoshop.methods.BusinessMethods;
 
-public class Computers_Regression extends BaseTest {
+public class Books_RegressionTest extends BaseTest {
 
 	@Test
-	public void computers_tc_01() {
+	public void books_tc_01() {
 		BaseMethods.openUrl(BaseMethods.testData.getProperty("URL"));
 		BusinessMethods.clickOnElement(BaseMethods.elementSelectors.getProperty("Log in"));
 		BusinessMethods.verifyPageURLsubString("login");
