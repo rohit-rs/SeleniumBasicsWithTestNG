@@ -41,14 +41,14 @@ public class BaseMethods {
 		System.setProperty("webdriver.chrome.driver", "Dependent_Jars\\chromedriver.exe");
 		driver =  new ChromeDriver();
 		driver.manage().window().maximize();
-		driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
-		wait = new WebDriverWait(driver, 30);
+		driver.manage().timeouts().pageLoadTimeout(60, TimeUnit.SECONDS);
+		wait = new WebDriverWait(driver, 60);
 		Reporter.log("[Chrome browser launced sucessfully.]", true);
 	}
 	
 	public static void openUrl(String URL) {
 		driver.get(URL);
-		Reporter.log("[Opened URL: " + URL + ".]", true);
+		Reporter.log("[Open URL: " + URL + ".]", true);
 	}
 		
 	public static void closeBroswer() {
